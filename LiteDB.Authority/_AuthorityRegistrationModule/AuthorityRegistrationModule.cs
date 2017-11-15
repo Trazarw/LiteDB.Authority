@@ -1,6 +1,6 @@
-﻿using LiteDB.Entities;
-using System;
+﻿using System;
 using LiteDB.Authority.Extensions;
+using LiteDB.Authority.Entities;
 
 namespace LiteDB.Authority._AuthorityRegistrationModule
 {

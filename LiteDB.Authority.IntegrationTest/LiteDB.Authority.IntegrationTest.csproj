@@ -61,10 +61,6 @@
       <Project>{76934afa-a63f-4f1d-8139-55f6b766147d}</Project>
       <Name>LiteDB.Authority</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LiteDB.Entities\LiteDB.Entities.csproj">
-      <Project>{4fd3cd0b-9c8c-43b8-b946-9b3d035bfe7e}</Project>
-      <Name>LiteDB.Entities</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Entities\UserCredentials.cs" />
     <Compile Include="_AuthorityLoginModule\IAuthorityLoginModule.cs" />
     <Compile Include="_AuthorityLoginModule\AuthorityLoginModule.cs" />
     <Compile Include="_AuthorityRegistrationModule\IAuthorityRegistrationModule.cs" />
@@ -52,12 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LiteDB.Entities\LiteDB.Entities.csproj">
-      <Project>{4fd3cd0b-9c8c-43b8-b946-9b3d035bfe7e}</Project>
-      <Name>LiteDB.Entities</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

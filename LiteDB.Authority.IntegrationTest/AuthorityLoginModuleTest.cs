@@ -1,10 +1,10 @@
 ﻿using LiteDB.Authority._AuthorityLoginModule;
 using LiteDB.Authority._AuthorityRegistrationModule;
-using LiteDB.Entities;
 using NUnit.Framework;
 using System.IO;
 using System.Reflection;
 using System.Linq;
+using LiteDB.Authority.Entities;
 
 namespace LiteDB.Authority.IntegrationTest
 {

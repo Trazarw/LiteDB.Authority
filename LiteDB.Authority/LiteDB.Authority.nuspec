@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LiteDB.Authority</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Enis Sabri Nefzi Sanchez</authors>
+    <owners>Open source</owners>
+    <licenseUrl>https://github.com/Trazarw/LiteDB.Authority/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Trazarw/LiteDB.Authority</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Trazarw/LiteDB.Authority/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ready to go LiteDB Module, Unique Authority Registration, Authority Login</description>
+    <releaseNotes>First Version</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Login,Registration,FileDb,NoSqlDb,EmbeddedDatabases,LocalApp,SimpleApp,MobileApp</tags>
+  </metadata>
+</package>

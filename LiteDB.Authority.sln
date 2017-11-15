@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Authority", "LiteDB.Authority\LiteDB.Authority.csproj", "{76934AFA-A63F-4F1D-8139-55F6B766147D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Entities", "LiteDB.Entities\LiteDB.Entities.csproj", "{4FD3CD0B-9C8C-43B8-B946-9B3D035BFE7E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Authority.IntegrationTest", "LiteDB.Authority.IntegrationTest\LiteDB.Authority.IntegrationTest.csproj", "{3D67B423-22BE-4FCC-B2AB-5F2D08BF82C4}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{76934AFA-A63F-4F1D-8139-55F6B766147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76934AFA-A63F-4F1D-8139-55F6B766147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76934AFA-A63F-4F1D-8139-55F6B766147D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FD3CD0B-9C8C-43B8-B946-9B3D035BFE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FD3CD0B-9C8C-43B8-B946-9B3D035BFE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FD3CD0B-9C8C-43B8-B946-9B3D035BFE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FD3CD0B-9C8C-43B8-B946-9B3D035BFE7E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D67B423-22BE-4FCC-B2AB-5F2D08BF82C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D67B423-22BE-4FCC-B2AB-5F2D08BF82C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D67B423-22BE-4FCC-B2AB-5F2D08BF82C4}.Release|Any CPU.ActiveCfg = Release|Any CPU

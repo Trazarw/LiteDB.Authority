@@ -1,6 +1,6 @@
 ﻿using LiteDB.Entities;
 
-namespace LiteDB.Authority._AuthorityGetterModule
+namespace LiteDB.Authority._AuthorityLoginModule
 {
     public interface IAuthorityLoginModule
     {

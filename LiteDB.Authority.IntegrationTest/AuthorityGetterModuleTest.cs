@@ -1,6 +1,5 @@
-﻿using LiteDB.Authority._AuthorityGetterModule;
-using LiteDB.Authority._UserRegistrationModul;
-using LiteDB.Authority.UserGetterModule;
+﻿using LiteDB.Authority._AuthorityLoginModule;
+using LiteDB.Authority._AuthorityRegistrationModule;
 using LiteDB.Entities;
 using NUnit.Framework;
 using System.IO;

@@ -1,8 +1,7 @@
-﻿using LiteDB.Authority._AuthorityGetterModule;
-using LiteDB.Entities;
+﻿using LiteDB.Entities;
 using System;
 
-namespace LiteDB.Authority.UserGetterModule
+namespace LiteDB.Authority._AuthorityLoginModule
 {
     public class AuthorityLoginModule : IAuthorityLoginModule
     {

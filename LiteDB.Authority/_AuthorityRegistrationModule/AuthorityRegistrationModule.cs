@@ -1,9 +1,8 @@
 ﻿using LiteDB.Entities;
 using System;
-using LiteDB.Authority._UserRegistrationModule;
 using LiteDB.Authority.Extensions;
 
-namespace LiteDB.Authority._UserRegistrationModul
+namespace LiteDB.Authority._AuthorityRegistrationModule
 {
     public class AuthorityRegistrationModule : IAuthorityRegistrationModule
     {

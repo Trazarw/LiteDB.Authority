@@ -1,4 +1,4 @@
-﻿using LiteDB.Entities;
+﻿using LiteDB.Authority.Entities;
 using System;
 
 namespace LiteDB.Authority._AuthorityLoginModule

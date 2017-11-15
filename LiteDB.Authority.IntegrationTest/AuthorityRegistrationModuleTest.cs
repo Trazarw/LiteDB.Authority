@@ -1,5 +1,5 @@
 ﻿using LiteDB.Authority._AuthorityRegistrationModule;
-using LiteDB.Entities;
+using LiteDB.Authority.Entities;
 using NUnit.Framework;
 using System;
 using System.IO;

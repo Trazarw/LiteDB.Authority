@@ -4,6 +4,7 @@ using LiteDB.Entities;
 using NUnit.Framework;
 using System.IO;
 using System.Reflection;
+using System.Linq;
 
 namespace LiteDB.Authority.IntegrationTest
 {
@@ -46,6 +47,18 @@ namespace LiteDB.Authority.IntegrationTest
             bool actual = _loginModule.LogInAuthority(authority);
 
             Assert.IsTrue(actual);
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            using (var db = new LiteDatabase(_dbName))
+            {
+                db.GetCollectionNames().ToList().ForEach(x =>
+                {
+                    db.DropCollection(x);
+                });
+            }
         }
     }
 }

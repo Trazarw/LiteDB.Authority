@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuthorityGetterModuleTest.cs" />
+    <Compile Include="AuthorityLoginModuleTest.cs" />
     <Compile Include="AuthorityRegistrationModuleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,3 +1,8 @@
+# Authority LiteDB Module
+
+Ready to go LiteDB Module
+
+  - Unique Authority Registration 
   - Authority Login
 
 LiteDB https://github.com/mbdavid/LiteDB

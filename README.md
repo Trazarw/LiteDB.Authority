@@ -1,3 +1,6 @@
+  - Authority Login
+
+LiteDB https://github.com/mbdavid/LiteDB
 
 ### Registration Usage
 
@@ -12,7 +15,7 @@
 ### Login Usage
 
 ```csharp
-            bool isSucess = _loginModule.LogInAuthority(new AuthorityCredentials
+            bool isSucess = new AuthorityLoginModule("databaseName").LogInAuthority(new AuthorityCredentials
             {
                 Id = "authid!",
                 Password = "authpass"

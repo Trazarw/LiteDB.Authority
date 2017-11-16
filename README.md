@@ -29,4 +29,4 @@ bool isSucess = new AuthorityLoginModule("databaseName")
      Id = "authid!",
      Password = "authpass"
 });
-```
+``` 

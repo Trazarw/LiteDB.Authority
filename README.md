@@ -5,6 +5,8 @@ Ready to go LiteDB Module
   - Unique Authority Registration 
   - Authority Login
 
+Nuget : Install-Package LiteDB.Authority -Version 1.1.0
+
 LiteDB https://github.com/mbdavid/LiteDB
 
 ### Registration Usage
@@ -27,4 +29,4 @@ bool isSucess = new AuthorityLoginModule("databaseName")
      Id = "authid!",
      Password = "authpass"
 });
-```
+``` 
